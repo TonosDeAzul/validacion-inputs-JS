@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <title>Lista de usuarios</title>
+</head>
+
+<body class="flex w-full min-h-screen justify-center items-center relative">
+
+  <table id="listar" class="table w-9/12">
+    <thead>
+      <tr class="text-center text-white">
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Apellidos</th>
+        <th>Documento</th>
+        <th>Tipo de documento</th>
+        <th>Correo</th>
+        <th>Dirección</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody id="tbody">
+    </tbody>
+  </table>
+
+  <a class="absolute left-5 bottom-5 bg-white text-black text-center p-5 rounded-full" href="../index.html"></a>
+  <script type="module" src="../scripts/listar.js"></script>
+</body>
+
+</html>

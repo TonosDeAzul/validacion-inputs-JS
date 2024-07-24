@@ -1,0 +1,24 @@
+{
+  "tb_usuario": [
+    {
+      "id": "94e6",
+      "nombre": "xzxzxzxzxzx",
+      "apellidos": "fsdfsdfsdfsf",
+      "telefono": "3213123213",
+      "direccion": "2321312312",
+      "tipoDocumento": "TI",
+      "documento": "1231321312",
+      "correo": "daniel@gmail.com"
+    },
+    {
+      "id": "572c",
+      "nombre": "eefsdfsdfsdf",
+      "apellidos": "sdfsdfsdfsd",
+      "telefono": "2131232132",
+      "direccion": "e12321321321321",
+      "tipoDocumento": "TI",
+      "documento": "1232132132",
+      "correo": "daniel@gmail.com"
+    }
+  ]
+}

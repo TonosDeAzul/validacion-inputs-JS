@@ -6,35 +6,35 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
-  <title>Document</title>
+  <title>Crear usuario</title>
 </head>
 
-<body class="grid w-full min-h-screen justify-center items-center">
+<body class="grid w-full min-h-screen justify-center items-center relative">
 
-  <form action="" id="form" class="flex w-96 gap-2.5 flex-col p-5 shadow-lg rounded-lg bg-nuetral-50">
+  <form action="" id="form" class="text-white flex w-96 gap-2 flex-col p-5 shadow-lg rounded-lg">
     <!-- Nombre -->
     <div class="grid text-lg gap-1">
-      <label for="nombre">Nombre</label>
+      <label class="text-sm" for="nombre">Nombre</label>
       <input type="text" id="nombre" class="input input-bordered w-full" autofocus>
     </div>
     <!-- Apellidos -->
     <div class="grid text-lg gap-1">
-      <label for="">Apellidos</label>
+      <label class="text-sm" for="apellidos">Apellidos</label>
       <input type="text" id="apellidos" class="input input-bordered w-full">
     </div>
     <!-- Télfono -->
     <div class="grid text-lg gap-1">
-      <label for="">Teléfono</label>
+      <label class="text-sm" for="telefono">Teléfono</label>
       <input type="text" id="telefono" class="input input-bordered w-full">
     </div>
     <!-- Dirección -->
     <div class="grid text-lg gap-1">
-      <label for="">Dirección</label>
+      <label class="text-sm" for="direccion">Dirección</label>
       <input type="text" id="direccion" class="input input-bordered w-full">
     </div>
     <!-- Tipos de documento -->
     <div class="grid text-lg gap-1">
-      <label for="">Tipo de documento</label>
+      <label class="text-sm" for="tipoDocumento">Tipo de documento</label>
       <select name="" id="tipoDocumento" class="input input-bordered w-full">
         <option value="Seleccione...">Seleccione...</option>
         <option value="CC">CC</option>
@@ -43,12 +43,12 @@
     </div>
     <!-- Documento -->
     <div class="grid text-lg gap-1">
-      <label for="">Documento</label>
+      <label class="text-sm" for="documento">Documento</label>
       <input type="text" id="documento" class="input input-bordered w-full">
     </div>
     <!-- Correo -->
     <div class="grid text-lg gap-1">
-      <label for="">Correo</label>
+      <label class="text-sm" for="correo">Correo</label>
       <input type="text" id="correo" class="input input-bordered w-full">
     </div>
     <!-- Aceptar términos -->
@@ -58,9 +58,10 @@
         Acepto las políticas de uso
       </label>
     </div>
-    <button class="btn w-full bg-neutral-900 text-white" id="button">Enviar</button>
+    <button type="submit" class="btn w-full bg-neutral-900 text-white" id="button">Enviar</button>
   </form>
 
+  <a class="absolute right-5 bottom-5 bg-white text-black text-center p-5 rounded-full" href="views/usuarios.html"></a>
   <script src="/scripts/app.js" type="module"></script>
 
 </body>
